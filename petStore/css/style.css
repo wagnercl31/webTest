@@ -8,18 +8,20 @@
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
-    height: 100px;
+    background-color: #9d209d;
+    height: 50px;
+    width: 100%;
 }
 
 nav {
-    flex: 1;
-    text-align: right;
+    flex: 2;
+    text-align: center;
 }
 
 nav ul {
     display: inline-block;
     list-style-type: none;
+    
 }
 
 nav ul li {
@@ -29,14 +31,27 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: rgb(250, 244, 244);
 }
 
 p {
     color: #555;
 }
 
-.slideshow-container {
+.logo img {
+  width: 100px;
+
+}.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+/* .slideshow-container {
     position: relative;
     margin: auto;
     width: 100%;
@@ -101,15 +116,44 @@ p {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  } */
+
+  #items-wrapper {
+    width: 100vw; 
   }
 
+  #items {
+    display: flex;
 
+    overflow-x:auto ;
+    scroll-snap-type: x mandatory;
+
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
+  .item {
+    flex: none;
+    width: 100%;
+    height: 400px;
+
+    scroll-snap-align: start;
+
+    pointer-events: none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
 
 .container {
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 100%;
+    margin: 0;
+    /* padding-left: 25px;
+    padding-right: 25px; */
 }
 
 .categorias {

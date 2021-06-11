@@ -9,10 +9,18 @@
 
 <body> 
     <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="imagens/logoPet.jpeg" width="125px">
+        <div class="cabecalho">
+            <div id="campoBusca"> 
+                <input type="text" id="txtBusca" placeholder="Pesquisar">
+                <button id="btnBusca" >Pesquisar</button>
             </div>
+            <div class="logo">
+                <img src="imagens/logoPet.jpeg" >
+            </div>
+        </div>
+        
+        <div class="navbar">
+            
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -23,7 +31,7 @@
             </nav>
         </div>          
     </div>
-    <div class="slideshow-container">
+    <!-- <div class="slideshow-container">
         <div class="mySlides fade">          
                 <img src="imagens/slider1.jpg" style="width:100%">
           </div>
@@ -38,6 +46,16 @@
 
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div> -->
+
+    <div id="items-wrapper">
+        <div id="items">
+            <div class="item"><img src="./imagens/slider1.jpg" ></div>
+            <div class="item"><img src="./imagens/slider2.jpg" ></div>
+            <div class="item"><img src="./imagens/slider4.jpg" ></div>
+            <div class="item"><img src="./imagens/slider4.jpg" ></div>
+            <div class="item"><img src="./imagens/slider4.jpg" ></div>
+        </div>
     </div>
 
     <div class="categorias">
