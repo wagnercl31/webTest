@@ -249,3 +249,42 @@ form button:hover {
   height: 200px;
   margin-left: 5px;
 }
+
+.small-container2 {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+}
+
+.small-container2 h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+
+.container-newsletter {
+  width: 100%;
+  height: 400px;
+  background-color: #9d209d;
+}
+
+.logistica {
+  text-align: center;
+  border-bottom: 5px solid rgba(238, 225, 37, 0.618);
+  justify-content: center;
+  
+}
+
+.logistica i {
+  padding-right: 60px;
+  color: rgba(238, 225, 37, 0.618);
+  padding: 20px;
+  
+}
+
+.container-newsletter  a {
+  padding-left: 10px;
+}
+
