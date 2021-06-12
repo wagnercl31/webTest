@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pet Store</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/71d06c89fe.js" crossorigin="anonymous"></script>
 </head>
 
 <body> 
     <div class="container">
         <div class="cabecalho">
-            <div id="campoBusca"> 
+            <form id="campoBusca"> 
                 <input type="text" id="txtBusca" placeholder="Pesquisar">
-                <button id="btnBusca" >Pesquisar</button>
-            </div>
+                <button id="btnBusca" type="submit" ><i class="fas fa-search"></i></button>
+            </form>
             <div class="logo">
                 <img src="imagens/logoPet.jpeg" >
+            </div>
+            <div class="cart">
+                <a href="#"><i class="fas fa-user"></i></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                
             </div>
         </div>
         
@@ -25,59 +31,123 @@
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Produtos</a></li>
+                    <li><a href="">Produtos</a></li>
                     <li><a href="">Sobre</a></li>
+                    <li><a href="">Sobre Lorem  </a></li>
                     <li><a href="">Categoria</a></li>
+                    <li><a href=""><i class="fas fa-bars"></i></a></li>
                 </ul>
             </nav>
-        </div>          
+        </div>  
+        <div class="main">
+            <div class="slider">
+                <ul class="slider-parent">
+                    <li class="images-list" data-slider="1"></li>
+                    <li class="images-list" data-slider="2"></li>
+                    <li class="images-list" data-slider="3"></li>
+                    <li class="images-list" data-slider="4"></li>
+                    <li class="images-list" data-slider="5"></li>
+                    <li class="images-list" data-slider="6"></li>
+                </ul>
+                <ol class="buttom-circles">
+                    <li class="buttom-circles-list slider-active" data-slider="1"><i class="fa fa-circle-thin"></i></li>
+                    <li class="buttom-circles-list" data-slider="2"><i class="fa fa-circle-thin"></i></li>
+                    <li class="buttom-circles-list" data-slider="3"><i class="fa fa-circle-thin"></i></li>
+                    <li class="buttom-circles-list" data-slider="4"><i class="fa fa-circle-thin"></i></li>
+                    <li class="buttom-circles-list" data-slider="5"><i class="fa fa-circle-thin"></i></li>
+                    <li class="buttom-circles-list" data-slider="6"></li>
+                </ol>
+                    <i class="fa fa-chevron-right fa-5x"></i>
+                    <i class="fa fa-chevron-left fa-5x"></i>
+                </div>
+        </div>      
     </div>
-    <!-- <div class="slideshow-container">
-        <div class="mySlides fade">          
-                <img src="imagens/slider1.jpg" style="width:100%">
-          </div>
+    <!-- 
         
-          <div class="mySlides fade">
-                <img src="imagens/slider2.jpg" style="width:100%">
-          </div>
-        
-          <div class="mySlides fade">
-                <img src="imagens/slider4.jpg" style="width:100%">
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div> -->
-
-    <div id="items-wrapper">
-        <div id="items">
-            <div class="item"><img src="./imagens/slider1.jpg" ></div>
-            <div class="item"><img src="./imagens/slider2.jpg" ></div>
-            <div class="item"><img src="./imagens/slider4.jpg" ></div>
-            <div class="item"><img src="./imagens/slider4.jpg" ></div>
-            <div class="item"><img src="./imagens/slider4.jpg" ></div>
-        </div>
-    </div>
-
+     -->
+    
     <div class="categorias">
-        <div class="row">
-            <div class="col-3">
-                <a href="#">
-                    <img src="./imagens/logoPet.jpeg">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="#">
-                    <img src="./imagens/logoPet.jpeg">
-                </a>
-            </div>
-            <div class="col-3">
-                <a href="#">
-                    <img src="./imagens/logoPet.jpeg">
-                </a>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./imagens/logoPet.jpeg">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./imagens/logoPet.jpeg">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#">
+                        <img src="./imagens/logoPet.jpeg">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="small-container">
+        <h2>Novidades</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-two ">
+        <div class="imagem1">
+            <img src="./imagens/gato.jpg" >
+        </div>
+        <div class="imagem2">
+            <img src="./imagens/dog.jpeg" >
+        </div>
+    </div>
+    <div class="small-container">
+        <h2>Novidades</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./imagens/produto2.jpg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto2.jpg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+            <div class="col-4">
+                <img src="./imagens/produto1.jpeg" >
+                <h4>Lorem ipulsim</h4>
+                <p>R$50,00</p>
+            </div>
+        </div>
+    </div>
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
