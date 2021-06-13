@@ -6,7 +6,7 @@
 }
 
 body {
-  margin-top: 5%;
+  margin-top: 0;
 }
 
 ul, ol {
@@ -67,6 +67,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly; 
+  padding: 20px;
 }
 
 
@@ -179,7 +180,7 @@ form button:hover {
 .categorias {
   margin: 0px;
   margin-bottom: 20px;
-  background-color: aqua;   
+  background-color: rgb(255, 166, 0);   
 }
 
 .row {
@@ -272,8 +273,9 @@ form button:hover {
 
 .logistica {
   text-align: center;
-  border-bottom: 5px solid rgba(238, 225, 37, 0.618);
+  border-bottom: 2px solid rgba(238, 225, 37, 0.618);
   justify-content: center;
+  
   
 }
 
@@ -281,10 +283,153 @@ form button:hover {
   padding-right: 60px;
   color: rgba(238, 225, 37, 0.618);
   padding: 20px;
-  
+  width: 250px;
 }
 
 .container-newsletter  a {
   padding-left: 10px;
+
 }
 
+.container-newsletter .border {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+}
+
+
+.box {
+  background: linear-gradient(125deg, #91428a,#f8a5c2);
+  position: absolute;
+  top: 355%;
+  left: 36%;
+  width: 400px;
+  padding: 20px ;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00000060;
+  
+}
+
+.box span {
+  font-size: 80px;
+  height: 80px;
+  display: block;
+  line-height: 80px;
+  text-align: center;
+  color: rgba(238, 157, 37, 0.618);
+}
+
+.box h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.box p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(20, 19, 19);
+}
+
+
+.tbox {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color:#313131 ;
+}
+
+.tbox a{
+  float: right;
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 40px;
+  transition: 0.4s all;
+}
+
+.box input {
+  border: none;
+  margin: 0 14px;
+  width: 230px;
+  background: none;
+  color: whitesmoke;
+  font-size: 18px;
+  outline: none;
+  padding: 10px 0;
+}
+
+.tbox a:hover {
+  opacity: 0.8;
+}
+
+.container-wrap .row {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.container-wrap .column a {
+  color: black;
+}
+
+.container-wrap .column {
+  padding: 0 50px;
+}
+
+footer {
+  color: black;
+  height: 40vh;
+}
+
+.footer-widget {
+  margin: 0 10px;
+  text-align: justify;
+}
+
+.widget-title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.end .border-end {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.end {
+  width: 100%;
+}
+
+.border-end .container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+  border-top: 2px solid #3232;
+
+}
+
+.end .container img {
+  width: 50px;
+  padding: 10px;
+}
